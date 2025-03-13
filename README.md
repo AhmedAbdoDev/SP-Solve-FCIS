@@ -14,11 +14,11 @@ Stay tuned for upcoming solutions and follow the repository to get updates!
 ## 📖 Available Weeks
 
 ✅ Week 1  
-✅ Week 2  
-✅ Week 3  
-✅ Week 4  
-✅ Week 5  
-🔜 Week 6 (Coming soon...)  
+🔜 Week 2 (Coming soon...)
+🔜 Week 3 (Coming soon...)
+🔜 Week 4 (Coming soon...)
+🔜 Week 5 (Coming soon...)
+🔜 Week 6 (Coming soon...)
 
 ## 🚀 How to Use
 
