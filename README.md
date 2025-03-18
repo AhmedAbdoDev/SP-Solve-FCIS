@@ -16,7 +16,7 @@ Stay tuned for upcoming solutions and follow the repository to get updates!
 ✅ Week 1  
 ✅ Week 2  
 ✅ Week 3  
-🔜 Week 4 (Coming soon...)  
+✅ Week 4  
 🔜 Week 5 (Coming soon...)  
 🔜 Week 6 (Coming soon...)  
 
