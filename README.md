@@ -17,7 +17,7 @@ Stay tuned for upcoming solutions and follow the repository to get updates!
 ✅ Week 2  
 ✅ Week 3  
 ✅ Week 4  
-✅ Week 5  
+✅ Week 5   
 🔜 Week 6 (Coming soon...)  
 
 ## 🚀 How to Use
