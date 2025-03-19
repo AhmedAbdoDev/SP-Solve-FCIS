@@ -18,7 +18,7 @@ Stay tuned for upcoming solutions and follow the repository to get updates!
 ✅ Week 3  
 ✅ Week 4  
 ✅ Week 5  
-🔜 Week 6 (Coming soon...)  
+✅ Week 6  
 
 ## 🚀 How to Use
 
@@ -26,7 +26,7 @@ Stay tuned for upcoming solutions and follow the repository to get updates!
 2. Review the problems and their solutions.
 3. Try solving the problems on your own before checking the solutions!
 
-## 🤝 Contributions
+## 🤝 Contributions~
 
 If you have alternative solutions, optimizations, or suggestions, feel free to submit a pull request or open an issue.
 
