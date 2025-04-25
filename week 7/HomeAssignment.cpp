@@ -33,7 +33,7 @@ int main()
   return 0;
 }
 
-void InputProducts(Product products[n], int size)
+void InputProducts(Product products[], int size)
 {
   cout << "Please enter the " << size << " products:" << endl;
   for (int i = 0; i < size; i++)
@@ -56,13 +56,13 @@ void InputProducts(Product products[n], int size)
     cout << endl;
   }
 }
-void ProductsLessThan(int quant, Product products[n], int size)
+void ProductsLessThan(int quant, Product products[], int size)
 {
   for (int i = 0; i < size; i++)
     if (quant > products[i].quantity)
       cout << "Product " << products[i].serialNum << endl;
 }
-int GetIndexOfHighestSales(Product products[n], int size)
+int GetIndexOfHighestSales(Product products[], int size)
 {
   int max = products[0].sales[0][0], index = -1;
   for (int i = 0; i < size; i++)
@@ -73,7 +73,7 @@ int GetIndexOfHighestSales(Product products[n], int size)
     }
   return index + 1;
 }
-void maxSales(Product products[n], int size, int productNum, int weekNum)
+void maxSales(Product products[], int size, int productNum, int weekNum)
 {
   weekNum--;
   Product product = products[productNum - 1];
@@ -90,8 +90,7 @@ void maxSales(Product products[n], int size, int productNum, int weekNum)
 
   cout << "The max sales was " << maxSale << " on day " << day << endl;
 }
-
-void Discount(Product products[n], int size)
+void Discount(Product products[], int size)
 {
   for (int i = 0; i < size; i++)
     if (products[i].quantity < 6)
@@ -107,7 +106,7 @@ float avgSales(Product products[], int size, int productNum)
       total += product.sales[week][day];
   return total / 28.0;
 }
-void Display(Product products[n], int size)
+void Display(Product products[], int size)
 {
   for (int i = 0; i < size; i++)
   {
@@ -117,7 +116,7 @@ void Display(Product products[n], int size)
     cout << "Average Sales : " << avgSales(products, size, i + 1) << endl;
   }
 }
-void PriceLessThan(Product products[n], int size, int amount, int &coun)
+void PriceLessThan(Product products[], int size, int amount, int &coun)
 {
   for (int i = 0; i < size; i++)
     if (amount > products[i].price)
@@ -130,7 +129,7 @@ void printSales(int sales[][7], int saleamount)
       if (sales[i][j] > saleamount)
         cout << "Day " << (i * 7) + (j + 1) << " : " << sales[i][j] << endl;
 }
-void Menu(Product products[n], int size)
+void Menu(Product products[], int size)
 {
   char ch = 'y';
   do
