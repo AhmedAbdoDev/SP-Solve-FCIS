@@ -88,7 +88,6 @@ void PriceLessThan(Product products[], int size, int amount, int &coun)
     if (amount > products[i].price)
       coun++;
 }
-
 void Menu(Product products[], int size)
 {
   char ch = 'y';
