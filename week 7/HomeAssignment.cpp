@@ -1,4 +1,4 @@
-// HA #5
+// HA #6
 #include <iostream>
 using namespace std;
 const int n = 10;
