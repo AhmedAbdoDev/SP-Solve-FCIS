@@ -20,6 +20,7 @@ Stay tuned for upcoming solutions and follow the repository to get updates!
 ✅ Week 5  
 ✅ Week 6  
 ✅ Week 7  
+✅ Week 8  
 
 ## 🚀 How to Use
 
