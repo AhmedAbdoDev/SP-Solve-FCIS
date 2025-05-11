@@ -28,6 +28,7 @@ int main()
     Product *products = new Product[size];
     InputProducts(products, size);
     Menu(products, size);
+    delete[] products;
   }
   return 0;
 }
